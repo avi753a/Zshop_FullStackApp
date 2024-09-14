@@ -1,0 +1,14 @@
+@media screen and (min-width:768px) {
+    .mb-6{
+        margin-bottom: 6rem;
+    }
+    .features{
+        height: 10rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .mb-6{
+        margin-bottom: 3rem;
+    }
+}
+

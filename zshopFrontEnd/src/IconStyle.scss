@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url(../public/fonts/icomoon.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change /fonts */
+  font-family: 'icomoon' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-truck:before {
+  content: "\e90c";
+}
+.icon-delivary:before {
+  content: "\e900";
+}
+.icon-maintance-icon:before {
+  content: "\e901";
+}
+.icon-warranty-icon:before {
+  content: "\e902";
+}
+.icon-support-icon:before {
+  content: "\e903";
+}
+.icon-question:before {
+  content: "\e90d";
+}
+.icon-user:before {
+  content: "\e904";
+}
+.icon-share:before {
+  content: "\e90e";
+}
+.icon-bag:before {
+  content: "\e905";
+}
+.icon-package:before {
+  content: "\e90f";
+}
+.icon-arrow-left:before {
+  content: "\e906";
+}
+.icon-arrow-right:before {
+  content: "\e907";
+}
+.icon-search:before {
+  content: "\e908";
+}
+.icon-eye:before {
+  content: "\e910";
+}
+.icon-menu:before {
+  content: "\e909";
+}
+.icon-star-full:before {
+  content: "\e90a";
+}
+.icon-star:before {
+  content: "\e90b";
+}

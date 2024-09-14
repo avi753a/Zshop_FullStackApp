@@ -1,0 +1,54 @@
+.gallary-description{
+    max-width: 90%;
+}
+.slick-slide {
+    padding: 0; /* Remove padding between slides */
+    margin: 0;  /* Remove margin between slides */
+  }
+  
+  .slick-list {
+    margin: 0 -1px; /* Adjust margin to handle any browser-specific issues */
+  }
+  
+  .slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  .slick-track {
+    display: flex; /* Make slides align horizontally */
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: -25px; /* Position dots below the slider */
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #000; /* Color of the dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff6347; /* Active dot color */
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the slider */
+    padding-bottom: 40px; /* Space for dots */
+  }
+  .slider-image{
+    width: 100%;
+    object-fit: cover;
+  }
+  .slider-image-container{
+    height: 300px;
+  }

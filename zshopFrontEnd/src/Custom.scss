@@ -1,0 +1,18 @@
+
+$theme-colors: (
+  "primary":    blue,
+  "secondary":  gray,
+  "success":   green,
+  "info":       cyan,
+  "warning":    orange,
+  "danger":     red,
+  "alert":rgb(218,63,63),
+  'light': white,
+  'dark': black,
+  'gold': rgb(252,161,32),
+  "primary-background":rgb(218, 218, 218)
+) ;
+
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';

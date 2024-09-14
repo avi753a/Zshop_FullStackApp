@@ -1,0 +1,25 @@
+.card-image{
+    img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    }
+}
+.testimonial-card{
+    aspect-ratio: 864/400;
+    height: auto;
+    background-color: red;
+}
+.review-text{
+    text-align: left;
+    max-height: 140px;
+}
+.square{
+    aspect-ratio: 1/1;
+}
+.separation-line{
+    border: 1px solid black;
+}
+.fs-7{
+    font-size: 0.8rem;
+}

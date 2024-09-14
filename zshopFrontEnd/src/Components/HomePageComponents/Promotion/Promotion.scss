@@ -1,0 +1,70 @@
+.diagonal-line-container {
+    position: relative;
+}
+
+.diagonal-line-container::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(218, 218, 218); /* Color of the triangle */
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.diagonal-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid black; /* Thickness and color of the diagonal line */
+    clip-path: polygon(0 100%, 100% 0, 0 0);
+}
+.w-45{
+    width: 45%;
+}
+.sizeButton{
+    width: 30px;
+    height: 20px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.description-scroll{
+    height: 70px;
+    max-height: 70px;
+    overflow-y: scroll;
+    scrollbar-width: none; // Hide scrollbar for Firefox
+    -ms-overflow-style: none; // Hide scro
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+.promotionImage{
+    min-width: 270px;
+  
+}
+@media screen  and (min-width:576px){
+    .promotion-part{
+        width: 45%;
+    }
+    .promotion-image{
+        display: flex;
+        align-items: start;
+        background-color: rgb(131, 11, 11) !important; /* Color of the triangle */
+
+    }
+}
+@media screen  and (mqx-width:576px){
+    .promotion-part{
+        width: 100%;
+    }
+}
+
+.warrenty-container{
+    img{
+        object-fit: cover;
+    }
+}

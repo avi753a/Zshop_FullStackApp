@@ -1,0 +1,107 @@
+@import 'Custom';
+@import 'Iconstyle';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  .font-heading {
+    font-family: heading-font;
+    font-weight: 500;
+  }
+
+  .font-primary {
+    font-family: primary-font;
+  }
+
+  font-family: primary-font;
+
+  .w-60 {
+    width: 60%;
+  }
+
+  .w-10 {
+    width: 10%;
+  }
+
+  .w-20 {
+    width: 20%;
+  }
+
+  .w-30 {
+    width: 30% !important;
+  }
+
+  .w-40 {
+    width: 40%;
+  }
+
+  .w-70 {
+    width: 70%;
+  }
+
+  .w-80 {
+    width: 80%;
+  }
+
+  .w-90 {
+    width: 90%;
+  }
+
+  .fw-700 {
+    font-weight: 700;
+  }
+
+  .font-outline {
+    font-family: outline-font !important;
+  }
+
+  .b-shadow {
+    box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .fs-7 {
+    font-size: 0.8rem;
+  }
+
+  .timer-font {
+    font-family: timer-font !important;
+  }
+
+  .gap-10 {
+    gap: 10px;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+}
+
+@font-face {
+  font-family: heading-font;
+  src: url(../public/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: primary-font;
+  src: url(../public/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: outline-font;
+  src: url(../public/fonts/oultine-font.otf);
+}
+
+@font-face {
+  font-family: timer-font;
+  src: url(../public/fonts/timer-font.ttf);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

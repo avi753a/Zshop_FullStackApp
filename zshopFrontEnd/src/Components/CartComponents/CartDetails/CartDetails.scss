@@ -1,0 +1,22 @@
+.cart-details-container{
+    .mini-product-image{
+        height: 100px;
+        width: 80px;
+        object-fit: contain;
+    }
+    .product-image-sm{
+        aspect-ratio: 4/5;
+        min-width: 100px;
+        width: 80%;
+    }
+    .cart-item-row{
+        border: 2px solid gray;
+      
+    }
+    .total-container{
+        width: 50%;
+        @media screen and (max-width:576px) {
+            width: 100%;
+        }
+    }
+}

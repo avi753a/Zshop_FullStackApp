@@ -1,0 +1,48 @@
+.h-700{
+    height: 700px;
+}
+.w-35{
+    width: 35%;
+}
+.h-20{
+    height: 20%;
+}
+
+.ih-responsive{
+    height: auto; /* Maintain the natural height */
+    aspect-ratio: 2 / 3; /* Ensure the aspect ratio remains */
+    max-width: 100%; /* Ensure responsiveness */
+}
+.image-background{
+    background-color: rgb(224,224,224);
+}
+.fs-highlight{
+    font-size: min(9vw,11.5rem);
+}
+.fs-heading{
+    font-size: min(6vw,6rem)
+}
+.vertical-cover{
+    width: 100%;
+    height: 25%;
+}
+@media (max-width: 768px) {
+    .center-container {
+        width: 100%;
+    }
+    .fs-highlight{
+        font-size: 20vw;
+    }
+    .fs-heading{
+        font-size: 11vw;
+    }
+    .vertical-cover{
+        width: 75%;
+        height: 20%;
+
+    }
+
+}
+.vertical-cover-image{
+    object-fit:contain !important;
+}

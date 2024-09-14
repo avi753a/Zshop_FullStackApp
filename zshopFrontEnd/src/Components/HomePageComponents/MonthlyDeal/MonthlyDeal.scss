@@ -1,0 +1,74 @@
+.deal-description{
+    color: rgb(138,138,138);
+}
+.th-responsive{
+    height: auto; /* Maintain the natural height */
+    aspect-ratio: 1 / 1; /* Ensure the aspect ratio remains */
+    max-width: 100%; /* Ensure responsiveness */
+}
+.div-shadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+.w-18{
+    width: 16%;
+}
+.h-90{
+    height: 90%;
+}
+.h-10{
+    height: 10%;
+}
+.ih-responsive{
+    height: auto; /* Maintain the natural height */
+    aspect-ratio: 2 / 3; /* Ensure the aspect ratio remains */
+    max-width: 100%; /* Ensure responsiveness */
+}
+.deal-secondary-image-container{
+    overflow: hidden;
+}
+img{
+    object-fit: cover;
+}
+.deal-banner{
+    max-height: 550px;
+}
+
+  .dot {
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; 
+  }
+  
+  .dot:hover {
+    background-color: #ddd; }
+  
+  .dot.active {
+    background-color: black;
+    padding: 2px; 
+    border: 2px solid black; 
+  }
+  .arrow-container{
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    align-self: end;
+  .arrow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+  }
+}
+.offer{
+    position: relative;
+}
+.primary-image-container{
+    position: relative;
+    
+}
+.h-15{
+    height: 15%;
+}

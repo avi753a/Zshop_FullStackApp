@@ -1,0 +1,30 @@
+.product-item {
+    width: 90%; // Default for small screens (sm)
+  
+    @media (min-width: 576px) { // Small screens (sm)
+      width: 90%; // 1 item per row
+    }
+  
+    @media (min-width: 768px) { // Medium screens (md)
+      width: 45%; // 2 items per row
+    }
+  
+    @media (min-width: 992px) { // Large screens (lg)
+      width: 30%; // 3 items per row
+    }
+    .product-image{
+        object-fit: cover;
+        aspect-ratio: 3/4;
+
+    }
+    .product-image-container{
+        height: auto;
+        width: 90%;
+        aspect-ratio: 3/4;
+    }
+    .product-price{
+        text-align: left;
+    }
+
+  }
+  

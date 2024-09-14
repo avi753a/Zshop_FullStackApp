@@ -1,0 +1,63 @@
+.testimonial-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .testimonial-heading {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .testimonial-description {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    .carousel-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slick-list {
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden; /* Ensures the list stays within the container */
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slick-slide {
+        opacity: 0.5;
+        transform: scale(0.8);
+        transition: all 0.3s ease-in-out;
+        width: calc(100% / 3); /* Ensure the slides fit within the container */
+        box-sizing: border-box;
+    }
+
+    .slick-center {
+        opacity: 1 !important;
+        transform: scale(1.1);
+        margin: 0;
+    }
+
+    .slick-slide div {
+        background: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .zoomed-slide {
+        width: 100%;
+        overflow: hidden;
+    }
+}

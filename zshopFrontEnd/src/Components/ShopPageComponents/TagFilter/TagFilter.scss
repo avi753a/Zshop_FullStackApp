@@ -1,0 +1,21 @@
+// TagFilter.module.scss
+
+.custom-chip {
+    &.active {
+      background-color: black;
+      color: white;
+      border: 1px solid black;
+    }
+  
+    &:not(.active) {
+      background-color: transparent;
+      color: black;
+      border: 1px solid gray;
+    }
+  
+    &:hover {
+      background-color: darkgray;
+      color: white;
+    }
+  }
+  
